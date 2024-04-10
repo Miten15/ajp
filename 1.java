@@ -21,3 +21,15 @@ public class exam {
     }
 }
 
+</* ur code */>
+
+import java.applet.*;
+import java.awt.*;
+
+/<applet code="Demo1" width=200 height=200></applet>/
+public class Demo1 extends Applet {
+    public void init() {
+        Label l1 = new Label("Welcome to Java");
+        add(l1);
+    }
+}

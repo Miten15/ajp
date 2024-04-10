@@ -28,3 +28,21 @@ class Prac2 {
         Prac2 p = new Prac2();
     }
 }
+
+
+</* ur code */>
+
+import java.applet.*;
+import java.awt.*;
+
+/<applet code="Demo1" width=200 height=200></applet>/
+public class Demo1 extends Applet {
+    public void init() {
+        Button b1 = new Button("OK");  // Corrected button labels to start with uppercase letters
+        Button b2 = new Button("Reset");
+        Button b3 = new Button("Cancel");
+        add(b1);
+        add(b2);
+        add(b3);
+    }
+}
